@@ -1,2 +1,5 @@
-# platzi_practico_javascript
-Curso Práctico de Javascript
+# Curso Práctico de Javascript
+
+## Utilidades
+
+- https://pandao.github.io/editor.md/en.html 
