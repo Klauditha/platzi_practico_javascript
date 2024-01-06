@@ -7,10 +7,21 @@
   </head>
   <body>
     <h1>Manipulación del DOM basica con JavaScript</h1>
-    <input id="calculo1" onchange="console.log('Cambia el valor de calculo1')" placeholder="Escribe algo aqui" />
-    <input id="calculo2" placeholder="Escribe algo aqui" />
-    <button id="btnCalcular" onclick="bntOnClick()">Calcular</button>
-    <p id="result"></p>
+    <form id="form">
+      <input
+        id="calculo1"
+        onchange="console.log('Cambia el valor de calculo1')"
+        placeholder="Escribe algo aqui"
+      />
+      <input id="calculo2" placeholder="Escribe algo aqui" />
+      <!-- <button type="button" id="btnCalcular">Calcular</button> --><button
+        id="btnCalcular"
+      >
+        Calcular
+      </button>
+      <p id="result"></p>
+    </form>
+
     <script src="./script.js"></script>
   </body>
 </html>
